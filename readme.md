@@ -32,15 +32,7 @@ get_header();
     <?php
     // check if the user is logged in
     if (is_user_logged_in()) {
-
-        acf_form(array(
-            'post_id'        => 'new_post',
-            'post_title'    => true,
-            'post_content'    => true,
-            'new_post'   => array(
-                'post_status'   => 'publish', // 'draft'
-            )
-        ));
+        // add acf_form
     }
 
     ?>
